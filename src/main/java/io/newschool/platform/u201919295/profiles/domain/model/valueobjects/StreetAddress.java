@@ -10,7 +10,7 @@ public record StreetAddress(String streetaddress) {
 
     public StreetAddress {
         if (streetaddress == null || streetaddress.isBlank()) {
-            throw new IllegalArgumentException("Gender cannot be null or blank");
+            throw new IllegalArgumentException("StreetAddress cannot be null or blank");
         }
 
     }
