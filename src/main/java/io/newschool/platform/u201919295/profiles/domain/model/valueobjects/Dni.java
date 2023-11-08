@@ -10,7 +10,7 @@ import jakarta.persistence.Embeddable;
 
         public Dni {
             if (dni == null) {
-                throw new IllegalArgumentException("DNI cannot be null");
+                throw new IllegalArgumentException("Dni cannot be null");
             }
 
 
